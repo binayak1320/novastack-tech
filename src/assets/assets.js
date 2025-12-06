@@ -10,6 +10,9 @@ import menu_icon_dark from "./menu_icon_dark.svg";
 import menu_icon from "./menu_icon.svg";
 import sun_icon from "./sun_icon.svg";
 import moon_icon from "./moon_icon.svg";
+import group_profile from "./group_profile.png";
+import hero_img from "./hero_img.png";
+import bgImage1 from "./bgImage1.png";
 
 export const company_logos = [
   microsoft_logo,
@@ -27,6 +30,9 @@ const assets = {
   menu_icon,
   sun_icon,
   moon_icon,
+  group_profile,
+  hero_img,
+  bgImage1,
 };
 
 export default assets;
