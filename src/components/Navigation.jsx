@@ -1,0 +1,65 @@
+import React from "react";
+import assets from "../assets/assets";
+const DarkLogo = () => {
+  return (
+    <span
+      className="
+    text-xl sm:text-2xl font-extrabold tracking-wide
+    bg-linear-to-r from-[#0D743B] via-[#4CAF50] to-[#FCE166]
+    text-transparent bg-clip-text
+  "
+    >
+      NOVATECH TECHNOLOGIES
+    </span>
+  );
+};
+
+const LightLogo = () => {
+  return (
+    <span
+      className="
+    text-xl sm:text-2xl font-extrabold tracking-wide
+    bg-linear-to-r from-[#FCE166] via-[#4CAF50] to-[#0D743B]
+    text-transparent bg-clip-text drop-shadow-[0_0_6px_rgba(255,255,255,0.3)]
+  "
+    >
+      NOVATECH TECHNOLOGIES
+    </span>
+  );
+};
+const Navigation = ({ theme, setTheme }) => {
+  return (
+    <div className="flex px-4 sm:px-12 lg:px-24 xl:px-40 py-4 backdrop-blur-xl justify-between items-center sticky top-0 z-20 font-medium bg-white/50 dark:bg-gray-900/70">
+      {theme === "dark" ? <DarkLogo /> : <LightLogo />}
+      <div className="text-gray-700 dark:text-white top-0 bottom-0 right-0 flex gap-5 transition-all sm:text-sm max-sm:w-60 max-sm:pl-10 max-sm:fixed max-sm:min-h-screen max-sm:h-full max-sm:flex-col max-sm:bg-primary max-sm:text-white max-sm:pt-20 sm:items-center ">
+        
+        
+        <a href="" className="sm:hover:bottom-b">
+          Home
+        </a>
+        <a href="#services" className="sm:hover:bottom-b">
+          Services
+        </a>
+        <a href="" className="sm:hover:bottom-b">
+          About
+        </a>
+        <a href="#contact-us" className="sm:hover:bottom-b">
+          Contact us
+        </a>
+        <a href="#our-work" className="sm:hover:bottom-b">
+          Our work
+        </a>
+      </div>
+      <div>
+        <a
+          href="#contact-us"
+          className="text-sm flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full hover:scale-103 transition-all"
+        >
+          Connect <img src={assets.arrow_icon} width={14} alt="" />
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default Navigation;
