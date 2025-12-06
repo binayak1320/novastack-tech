@@ -14,7 +14,7 @@ import group_profile from "./group_profile.png";
 import hero_img from "./hero_img.png";
 import bgImage1 from "./bgImage1.png";
 
-export const company_logos = [
+export const partner_logos = [
   microsoft_logo,
   zoom_logo,
   rakuten_logo,
