@@ -8,6 +8,8 @@ import arrow_icon from "./arrow_icon.svg";
 import close_icon from "./close_icon.svg";
 import menu_icon_dark from "./menu_icon_dark.svg";
 import menu_icon from "./menu_icon.svg";
+import sun_icon from "./sun_icon.svg";
+import moon_icon from "./moon_icon.svg";
 
 export const company_logos = [
   microsoft_logo,
@@ -23,6 +25,8 @@ const assets = {
   close_icon,
   menu_icon_dark,
   menu_icon,
+  sun_icon,
+  moon_icon,
 };
 
 export default assets;

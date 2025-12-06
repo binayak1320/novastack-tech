@@ -10,7 +10,7 @@
 }
 
 @theme {
-  --color-primary: #5044e5; /* Your chosen primary color */
+  --color-primary: #5044E5; /* Your chosen primary color */
   --color-secondary: #ecc94b; /* Optional: Define other custom colors */
   /* You can also define shades like: */
   --color-primary-dark: #4a5bb3;

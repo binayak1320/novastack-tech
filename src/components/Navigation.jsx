@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import assets from "../assets/assets";
+import ThemeToggleBtn from "./ThemeToggleBtn";
 const DarkLogo = () => {
   return (
     <span
@@ -46,26 +47,47 @@ const Navigation = ({ theme, setTheme }) => {
           className="w-5 right-4 top-4 sm:hidden absolute"
         />
 
-        <a onClick={() => setOpenSidebar(false)} href="" className="sm:hover:border-b">
+        <a
+          onClick={() => setOpenSidebar(false)}
+          href=""
+          className="sm:hover:border-b"
+        >
           Home
         </a>
-        <a onClick={() => setOpenSidebar(false)} href="#services" className="sm:hover:border-b">
+        <a
+          onClick={() => setOpenSidebar(false)}
+          href="#services"
+          className="sm:hover:border-b"
+        >
           Services
         </a>
-        <a onClick={() => setOpenSidebar(false)} href="" className="sm:hover:border-b">
+        <a
+          onClick={() => setOpenSidebar(false)}
+          href=""
+          className="sm:hover:border-b"
+        >
           About
         </a>
-        <a onClick={() => setOpenSidebar(false)} href="#contact-us" className="sm:hover:border-b">
+        <a
+          onClick={() => setOpenSidebar(false)}
+          href="#contact-us"
+          className="sm:hover:border-b"
+        >
           Contact us
         </a>
-        <a onClick={() => setOpenSidebar(false)} href="#our-work" className="sm:hover:border-b">
+        <a
+          onClick={() => setOpenSidebar(false)}
+          href="#our-work"
+          className="sm:hover:border-b"
+        >
           Our work
         </a>
       </div>
       <div className="flex items-center gap-2 sm:gap-4">
+        <ThemeToggleBtn theme={theme} setTheme={setTheme} />
         <img
           onClick={() => setOpenSidebar(true)}
-          src={theme === "dark" ? assets.menu_icon:assets.menu_icon_dark }
+          src={theme === "dark" ? assets.menu_icon_dark : assets.menu_icon }
           alt=""
           className="w-8 sm:hidden"
         />
