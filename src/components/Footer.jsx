@@ -1,32 +1,6 @@
 import React from "react";
 import assets from "../assets/assets";
-const DarkLogo = () => {
-  return (
-    <span
-      className="
-    text-xl sm:text-2xl font-extrabold tracking-wide
-    bg-linear-to-r from-[#0D743B] via-[#4CAF50] to-[#FCE166]
-    text-transparent bg-clip-text
-  "
-    >
-      NOVATECH TECHNOLOGIES
-    </span>
-  );
-};
-
-const LightLogo = () => {
-  return (
-    <span
-      className="
-    text-xl sm:text-2xl font-extrabold tracking-wide
-    bg-linear-to-r from-[#FCE166] via-[#4CAF50] to-[#0D743B]
-    text-transparent bg-clip-text drop-shadow-[0_0_6px_rgba(255,255,255,0.3)]
-  "
-    >
-      NOVATECH TECHNOLOGIES
-    </span>
-  );
-};
+import { DarkLogo, LightLogo } from "./Logo";
 
 const Footer = ({ theme }) => {
   return (
@@ -82,7 +56,7 @@ const Footer = ({ theme }) => {
       <hr className="border-gray-300 dark:border-gray-600 my-6" />
       {/* footer bottom */}
       <div className="pb-6 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap">
-        <p>Copyright 2025 @ NOvaTech - All Right Reserved.</p>
+        <p>Copyright 2025 @ NovaTech - All Right Reserved.</p>
         <div className="flex items-center justify-between gap-4">
           <img src={assets.facebook_icon} alt="" />
           <img src={assets.twitter_icon} alt="" />
