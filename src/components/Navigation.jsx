@@ -49,7 +49,7 @@ const Navigation = ({ theme, setTheme }) => {
           alt=""
           className="w-8 sm:hidden"
         />
-        <CTAButton href="#contact-us" label="Connect" />
+        <CTAButton href="#contact-us" label="Connect" hideOnMobile={true} />
       </div>
     </div>
   );
