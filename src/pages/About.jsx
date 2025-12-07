@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <PageHeader
-        title="Connect With Us"
+        title="About Us"
         subtitle="We're here to collaborate, support, and bring your ideas to life."
         bg={assets.bgImage1}
       />
