@@ -1,16 +1,21 @@
-# React + Vite
+# NOVASTACK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Design Rationale
 
-Currently, two official plugins are available:
+The NovaStack website is built with a mobile-first approach to ensure seamless responsiveness across all devices. I used a clean, modern layout with Tailwind CSS to enhance readability and visual hierarchy. Key components like buttons and cards are modular for easy maintenance and reusability. Color schemes and typography were chosen to convey professionalism and brand consistency. Subtle animations and hover effects improve interactivity without distracting the user. Overall, the design balances aesthetics, usability, and performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run and Install
 
-## React Compiler
+1. **Clone the repository**  
+```bash
+git clone https://github.com/binayak1320/novastack-tech.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+cd your-repo
 
-## Expanding the ESLint configuration
+npm install
+# or
+yarn install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm run dev
+# or
+yarn dev
