@@ -15,23 +15,18 @@ const Footer = ({ theme }) => {
 
           <ul className="flex gap-8">
             <li>
-              <a className="hover:text-primary" href="#hero">
+              <a className="hover:text-primary" href="/">
                 Home
               </a>
             </li>
             <li>
-              <a className="hover:text-primary" href="#services">
-                Services
+              <a className="hover:text-primary" href="/about">
+                About
               </a>
             </li>
             <li>
-              <a className="hover:text-primary" href="#testimonial">
-                Our Work
-              </a>
-            </li>
-            <li>
-              <a className="hover:text-primary" href="contact-us">
-                Contact Us
+              <a className="hover:text-primary" href="/contact">
+                Contact
               </a>
             </li>
           </ul>
