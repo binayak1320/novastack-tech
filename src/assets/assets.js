@@ -21,6 +21,11 @@ import bgImage2 from "./bgImage2.png";
 import work_mobile_app from "./work_mobile_app.png";
 import work_fitness_app from "./work_fitness_app.png";
 import work_dashboard_management from "./work_dashboard_management.png";
+import person_icon from "./person_icon.svg";
+import facebook_icon from "./facebook_icon.svg";
+import twitter_icon from "./twitter_icon.svg";
+import instagram_icon from "./instagram_icon.svg";
+import linkedin_icon from "./linkedin_icon.svg";
 
 export const partner_logos = [
   microsoft_logo,
@@ -49,6 +54,11 @@ const assets = {
   work_mobile_app,
   work_fitness_app,
   work_dashboard_management,
+  person_icon,
+  facebook_icon,
+  twitter_icon,
+  instagram_icon,
+  linkedin_icon,
 };
 
 export default assets;
